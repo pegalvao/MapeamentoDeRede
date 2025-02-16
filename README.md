@@ -52,7 +52,7 @@ nmap -v --script "malware" xxx.xxx.xxxx
 
 ![!\[Alt text\](image.png)](Prints/image4.png)
 
-Nessa varredura não achado nenhum tipo de malware ou backdoor.
+Nessa varredura não foi achado nenhum tipo de malware ou backdoor.
 
 ## Referências: 
 NMAP: https://nmap.org/man/pt_BR/man-briefoptions.html
