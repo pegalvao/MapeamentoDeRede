@@ -2,7 +2,7 @@
 
 Utilizando Nmap e NSE scripts para mapear as vulnerabilidades da rede
 
-**Identificar possíveis vulnerabilidades no meu sistema\**
+**Identificar possíveis vulnerabilidades no meu sistema**\
 **Identificar se meu IP está sendo usado devidamente ou se há invasores externos**
 
 
