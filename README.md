@@ -9,7 +9,7 @@ Utilizando Nmap e NSE scripts para mapear as vulnerabilidades da rede
 Primeiramente será necessário coletar o ip da minha própria máquina, como estou utilizando o Linux é só utilizar o comando :
 
 ```
-hostname - I
+hostname -I
 ```
 **Obs: Substitua o xxx.xxx.xxxx pelo seu próprio endereço de Ip para não gerar nenhum problema**
 
