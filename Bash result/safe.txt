@@ -1,0 +1,40 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-02-18 22:05 -03
+too short
+Pre-scan script results:
+| broadcast-dns-service-discovery: 
+|   000.0.0.
+|     41800/tcp spotify-connect
+|_      Address=000.000.0.000
+| broadcast-listener: 
+|   udp
+|       MDNS
+|         Generic
+|           ip             ipv6  name
+|_          000.000.0.000       _spotify-connect._tcp.local
+| broadcast-upnp-info: 
+|   000.000.000.000
+|       Server: Linux/4.1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22
+|_      Location: http://000.000.0.0:00000/gatedesc.xml
+|_eap-info: please specify an interface with -e
+| targets-asn: 
+|_  targets-asn.asn is a mandatory parameter
+sendto in send_ip_packet_sd: sendto(9, packet, 00000 0, 000.0.0.000, xx) => Message too long
+Offending packet: TCP xxxxxxx> xxxxxx:x S ttl=xxx id=x iplen=x seq=xxxxxxxx win=xxxx <mss 1460>
+Nmap scan report for xxxxx (xxx.xxx.x.xxx)
+Host is up (0.000011s latency).
+All 1000 scanned ports on xxxxx (xxx.xxx.x.xxx) are closed
+
+Host script results:
+| dns-blacklist: 
+|   SPAM
+|     l2.apews.org - FAIL
+|_    all.spamrats.com - FAIL
+|_fcrdns: PASS (xxxx.local)
+|_ipidseq: All zeros
+|_path-mtu: xxxxx <= PMTU < xxxxx
+| unusual-port: 
+|_  WARNING: this script depends on Nmap's service/version detection (-sV)
+
+Post-scan script results:
+|_reverse-index: 
+Nmap done: 1 IP address (1 host up) scanned in 56.72 seconds
